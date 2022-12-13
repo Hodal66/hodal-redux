@@ -25,7 +25,8 @@ function Cart() {
       </div>
 
       <h3>
-        Number of Item{state.numOfItem > 1 && "s"} in the car :{state.numOfItem}
+        Number of Item{state.numOfItem > 1 && "s"} in the Cart :
+        {state.numOfItem}
       </h3>
 
       <div className="bottomButtons">

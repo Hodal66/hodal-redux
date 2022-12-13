@@ -46,7 +46,7 @@ function Cart() {
       </div>
       <p className="red">
         {" "}
-        {state.numOfItem === 0 ? "⚠️Your Store is Empty" : ""}
+        {state.numOfItem <= 0 ? "⚠️Your Store is Empty" : ""}
       </p>
     </div>
   );
